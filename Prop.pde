@@ -1,13 +1,13 @@
 class Prop implements Drawable {
 
   Prop() {
-    drawables.add(this);
+    
   }
 
   PVector pos;
   CollisionShape collisionShape;
 
-  void draw() {
+  void show() {
   }
 }
 
@@ -20,7 +20,7 @@ class Barrel extends Prop {
     this.collisionShape = new CollisionShape(Shape.CIRCLE, radius);
   }
 
-  void draw() {
+  void show() {
     fill(#e02c08);
     circle(pos.x, pos.y, 2*radius);
   }
@@ -35,7 +35,8 @@ class Box extends Prop {
     this.collisionShape = new CollisionShape(Shape.SQUARE, radius);
   }
 
-  void draw() {
+
+  void show() {
     fill(#603814);
     rect(pos.x - radius, pos.y - radius, 2*radius, 2*radius);
   }

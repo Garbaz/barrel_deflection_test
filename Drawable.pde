@@ -1,3 +1,3 @@
 interface Drawable {
-  void draw();
+  void show();
 }
