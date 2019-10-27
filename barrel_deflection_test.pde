@@ -17,7 +17,7 @@ boolean editMode = false;
 boolean unsavedChanges = false;
 
 void settings() {
-  size(1000, 1000);
+  size(1000, 1000, P2D);
 }
 
 void setup() {
