@@ -100,6 +100,8 @@ void mousePressed() {
       removeAllProps(toBeRemoved);
     }
   }
+
+  
 }
 
 boolean key_left  = false;

@@ -13,4 +13,6 @@ class Player extends Actor {
       circle(pos.x, pos.y, 1.5*RADIUS);
     }
   }
+
+  
 }
